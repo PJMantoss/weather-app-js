@@ -15,7 +15,7 @@ const setQuery = e => {
 }
 
 const getResults = query => {
-    fetch(`${api.base}weather?q=${query}&unit=metric&APPID=${api.key}`)
+    fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
       .then(weather => {
           return weather.json();
       }).then(displayResults);
@@ -35,6 +35,9 @@ const displayResults = weather => {
 
     let weather_desc = document.querySelector('.current .weather');
     weather_desc.innerText = weather.weather[0].main;
+
+    let hilow = document.querySelector('.current .hi-low');
+    hilow.innerHTML = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 }
 
 const dateBuilder = d => {
