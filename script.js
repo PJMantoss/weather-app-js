@@ -28,6 +28,10 @@ const displayResults = weather => {
 
     let now = new Date();
     let date = document.querySelector('.location .date');
+    date.innerText = dateBuilder(now);
+}
+
+const dateBuilder = d => {
     
 }
 
