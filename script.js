@@ -32,6 +32,9 @@ const displayResults = weather => {
 
     let temp = document.querySelector('.current .temp');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`
+
+    let weather_desc = document.querySelector('.current .weather');
+    weather_desc.innerText = weather.weather[0].main;
 }
 
 const dateBuilder = d => {
@@ -62,8 +65,8 @@ const dateBuilder = d => {
 
     let day = days[d.getDay()];
     let date = d.getDate();
-    let month = months[d.getMonths()];
-    let year = d.getfullYear();
+    let month = months[d.getMonth()];
+    let year = d.getFullYear();
     
     return `${day} ${date} ${month} ${year}`;
 }
