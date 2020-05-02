@@ -4,11 +4,14 @@ const api = {
 }
 
 const searchBox = document.querySelector('.search-box');
-searchBox.addEventListener('keypress', setQuery);
 
 
-const setQuery = e => {
-    if(e.keyCode === 13){
-        
+
+const setQuery = (e) => {
+    if(e.keyCode == 13){
+        //getResult(searchBox.value);
+        console.log(searchBox.value);
     }
 }
+
+searchBox.addEventListener('keypress', setQuery);
