@@ -3,7 +3,22 @@
     padding: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
 body {
     box-sizing: border-box;
     background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
