@@ -56,6 +56,13 @@ const dateBuilder = d => {
         "Friday", 
         "Saturday"
     ];
+
+    let day = days[d.getDay()];
+    let date = d.getDate();
+    let month = months[d.getMonths()];
+    let year = d.getfullYear();
+    
+    return `${day} ${date} ${month} ${year}`;
 }
 
 searchBox.addEventListener('keypress', setQuery);
