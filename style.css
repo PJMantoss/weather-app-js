@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Lilita+One&family=Quantico&family=ZCOOL+XiaoWei&display=swap');
 
 /*
 font-family: 'Amaranth', sans-serif;
 font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Quantico', sans-serif;
 */
 
 * {
@@ -22,7 +24,6 @@ body {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    font-family: 'Amaranth', sans-serif;
 }
 
 main {
@@ -63,4 +64,16 @@ header input {
     font-size: 20px;
     font-weight: 300;
     
+}
+
+.location .city {
+    font-size: 32px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.location .date {
+    font-size: 16px;
+    font-family: 'Quantico', sans-serif;
 }
