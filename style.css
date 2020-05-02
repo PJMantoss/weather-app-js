@@ -101,3 +101,28 @@ header input {
     font-family: 'Lilita One', cursive;
     text-shadow: 0.5px 4px rgba(0, 0, 0, 0.4);
 }
+
+#love {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#love > span {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white
+}
+
+#love > img {
+    width: 20px;
+    padding: 10px;
+}
+
+#love > span > a {
+    text-decoration: none;
+    color: yellow;
+}
