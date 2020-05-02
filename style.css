@@ -66,14 +66,38 @@ header input {
     
 }
 
+.location {
+    margin-bottom: 10px;
+}
+
 .location .city {
     font-size: 32px;
     font-family: 'Lilita One', cursive;
-    font-weight: 500;
     margin: 5px;
 }
 
 .location .date {
     font-size: 16px;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.current .temp {
+    font-size: 102px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.current .weather {
+    font-size: 32px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 0.5px 4px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+    font-size: 24px;
+    font-family: 'Lilita One', cursive;
 }
