@@ -29,6 +29,9 @@ const displayResults = weather => {
     let now = new Date();
     let date = document.querySelector('.location .date');
     date.innerText = dateBuilder(now);
+
+    let temp = document.querySelector('.current .temp');
+    temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`
 }
 
 const dateBuilder = d => {
