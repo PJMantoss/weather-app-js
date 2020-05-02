@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=ZCOOL+XiaoWei&display=swap');
+
+/*
+font-family: 'Amaranth', sans-serif;
+font-family: 'ZCOOL XiaoWei', serif;
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -38,5 +45,11 @@ header input {
     outline: none;
     border: none;
     border-radius: 16px 0px 16px 0px;
-    background: rgba(255, 255, 255, 0.705);
+    border-bottom: 2px solid orange;
+    background: rgba(255, 255, 255, 0.4);
+    transition: 0.2s ease-out;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    font-weight: 300;
+    
 }
