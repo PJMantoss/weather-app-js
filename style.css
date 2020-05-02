@@ -100,4 +100,5 @@ header input {
 .current .hi-low {
     font-size: 24px;
     font-family: 'Lilita One', cursive;
+    text-shadow: 0.5px 4px rgba(0, 0, 0, 0.4);
 }
